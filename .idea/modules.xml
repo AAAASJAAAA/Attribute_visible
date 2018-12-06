@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Attribute_visible.iml" filepath="$PROJECT_DIR$/.idea/Attribute_visible.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/wish.iml" filepath="$PROJECT_DIR$/.idea/wish.iml" />
     </modules>
   </component>

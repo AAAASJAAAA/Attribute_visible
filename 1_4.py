@@ -80,6 +80,19 @@ color = ['#668B8B', '#668B8B', '#668B8B', '#668B8B',
          '#8B2323', '#8B2323', '#8B2323', '#8B2323',
          ]
 ax.bar3d(xpos, ypos, zpos, dx, dy, dz, color=color, zsort='average')
-ax.set_title('PSONN&BASNN')
+
+
+a1 = plt.Rectangle((0, 0), 1, 1, fc="#668B8B")
+a2 = plt.Rectangle((0, 0), 1, 1, fc="#54FF9F")
+a3 = plt.Rectangle((0, 0), 1, 1, fc="#FFF68F")
+a4 = plt.Rectangle((0, 0), 1, 1, fc="#FF4040")
+a5 = plt.Rectangle((0, 0), 1, 1, fc="#00868B")
+a6 = plt.Rectangle((0, 0), 1, 1, fc="#008B00")
+a7 = plt.Rectangle((0, 0), 1, 1, fc="#FFC125")
+a8 = plt.Rectangle((0, 0), 1, 1, fc="#8B2323")
+
+
+ax.legend([a1,a2,a3,a4,a5,a6,a7,a8],['PSONN-Mean','GANN-Mean''PSONN-Mean','GANN-Mean''PSONN-Mean','GANN-Mean''PSONN-Mean','GANN-Mean'])
+ax.set_title('PSONN & BASNN')
 
 plt.show()
